@@ -1,12 +1,16 @@
 define([
 		'underscoreLoader',
 		'backboneLoader',
-		'text!templates/main.html'
+		'text!templates/main.html',
+		'jquery',
+		'orbit',
 	],
 	function(
 		_,
 		Backbone,
-		MainTemplate
+		MainTemplate,
+		$,
+		orbit
 	) {
 		"use strict";
 		
@@ -20,7 +24,6 @@ define([
 			
 			render : function() {
 				this.$el.append(this.template({}));
-				
 				return this;
 			}
 		});
