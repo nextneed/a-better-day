@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-    window.alert("OK");
 
   /* Use this js doc for all application specific JS */
 

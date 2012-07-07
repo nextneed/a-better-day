@@ -1,17 +1,17 @@
 define([
 		'underscoreLoader',
 		'backboneLoader',
-		'text!templates/main.html'
+		'text!templates/stats.html'
 	],
 	function(
 		_,
 		Backbone,
-		MainTemplate
+		StatsTemplate
 	) {
 		"use strict";
 		
 		return Backbone.View.extend({
-			template : _.template(MainTemplate),
+			template : _.template(StatsTemplate),
 			
 			initialize : function() {
 				
